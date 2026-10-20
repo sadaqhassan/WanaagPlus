@@ -9,7 +9,7 @@ export class AuthController {
         this.AuthService.login();
     }
 
-    @Post('singin')
+    @Post('signin')
     signIn(){
         return this.AuthService.signIn()
     }
