@@ -3,7 +3,5 @@ import { AuthModule } from './auth/auth.module.js';
 
 @Module({
   imports: [AuthModule],
-  controllers: [],
-  providers: [],
 })
 export class AppModule {}
