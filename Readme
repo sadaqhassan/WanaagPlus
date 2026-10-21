@@ -1,0 +1,29 @@
+
+WanaagPlus 🌙
+
+WanaagPlus is a good-deeds competition platform designed to encourage Muslims to compete in doing good deeds, inspired by the Quranic principle of فَاسْتَبِقُوا الْخَيْرَاتِ — “So race to all that is good.”
+
+✨ Features
+Tasbih Counter: Count daily dhikr and track your remembrance of Allah.
+Points System: Earn points for completing dhikr and other good deeds.
+Daily Competition: Compete with other users to increase your good deeds.
+Top 10 Leaderboard: Display the top 10 participants with the highest points each day.
+Daily Rankings: Rankings reset daily to give everyone a fresh opportunity to compete.
+Progress Tracking: Monitor your daily activity and personal achievements.
+Motivation & Reminders: Encourage consistency in worship and good deeds.
+🎯 Purpose
+
+The purpose of WanaagPlus is to promote good deeds, encourage consistency in dhikr, and build a community that motivates one another to do good.
+
+🛠️ Tech Stack
+Backend: NestJS
+Database: PostgreSQL
+ORM: Prisma
+Frontend: To be determined
+🚀 Vision
+
+WanaagPlus aims to make doing good deeds a daily habit through friendly competition, personal progress tracking, and a community centered on positive actions.
+
+فَاسْتَبِقُوا الْخَيْرَاتِ
+
+Race toward all that is good.
