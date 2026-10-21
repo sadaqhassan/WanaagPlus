@@ -1,29 +1,168 @@
+# 🌙 WanaagPlus
 
-WanaagPlus 🌙
+### Race Toward All That Is Good
 
-WanaagPlus is a good-deeds competition platform designed to encourage Muslims to compete in doing good deeds, inspired by the Quranic principle of فَاسْتَبِقُوا الْخَيْرَاتِ — “So race to all that is good.”
+**WanaagPlus** is a good-deeds competition platform designed to inspire Muslims to strengthen their daily worship, remain consistent in dhikr, and encourage one another to perform good deeds through friendly competition and community engagement.
 
-✨ Features
-Tasbih Counter: Count daily dhikr and track your remembrance of Allah.
-Points System: Earn points for completing dhikr and other good deeds.
-Daily Competition: Compete with other users to increase your good deeds.
-Top 10 Leaderboard: Display the top 10 participants with the highest points each day.
-Daily Rankings: Rankings reset daily to give everyone a fresh opportunity to compete.
-Progress Tracking: Monitor your daily activity and personal achievements.
-Motivation & Reminders: Encourage consistency in worship and good deeds.
-🎯 Purpose
+Inspired by the Quranic principle:
 
-The purpose of WanaagPlus is to promote good deeds, encourage consistency in dhikr, and build a community that motivates one another to do good.
+> **فَاسْتَبِقُوا الْخَيْرَاتِ**
+>
+> *“So race to all that is good.”*
 
-🛠️ Tech Stack
-Backend: NestJS
-Database: PostgreSQL
-ORM: Prisma
-Frontend: NextJs With typeScript
-🚀 Vision
+Our mission is to make good deeds a consistent part of everyday life by combining personal progress tracking, daily challenges, and community-driven motivation.
 
-WanaagPlus aims to make doing good deeds a daily habit through friendly competition, personal progress tracking, and a community centered on positive actions.
+---
 
-فَاسْتَبِقُوا الْخَيْرَاتِ
+## ✨ Key Features
 
-Race toward all that is good.
+- **📿 Digital Tasbih Counter** — Count daily dhikr and build consistent remembrance habits.
+- **⭐ Points System** — Earn points through dhikr and supported good-deed activities.
+- **🏆 Daily Competition** — Participate in friendly competitions that encourage positive actions.
+- **🥇 Top 10 Leaderboard** — Recognize the ten highest-ranked participants each day.
+- **🔄 Daily Rankings** — Reset daily competition rankings to give participants a fresh opportunity.
+- **📈 Progress Tracking** — Monitor daily activity and personal achievements.
+- **🔔 Motivation & Reminders** — Encourage consistency in worship and good deeds.
+
+## 🎯 Project Purpose
+
+WanaagPlus aims to:
+
+- Encourage Muslims to remain consistent in dhikr and worship.
+- Promote healthy competition in performing good deeds.
+- Help users track their daily progress and achievements.
+- Build a supportive community centered on faith, motivation, and positive action.
+
+## 🛠️ Technology Stack
+
+WanaagPlus is built using modern technologies designed to support a maintainable and scalable application.
+
+| Layer | Technology |
+|---|---|
+| Frontend | Next.js |
+| Programming Language | TypeScript |
+| Backend | NestJS |
+| Database | PostgreSQL |
+| ORM | Prisma |
+
+## 🏗️ Architecture
+
+The application follows a frontend-and-backend architecture:
+
+- **Frontend:** Next.js and TypeScript provide the user interface.
+- **Backend:** NestJS handles application logic and API development.
+- **Database:** PostgreSQL stores application data.
+- **ORM:** Prisma provides type-safe database access and data management.
+
+## 🚀 Getting Started
+
+Follow these steps to set up the project locally.
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [Git](https://git-scm.com/)
+
+### 1. Clone the Repository
+
+```bash
+git clone <YOUR_REPOSITORY_URL>
+cd WanaagPlus
+```
+
+Replace `<YOUR_REPOSITORY_URL>` with your Git repository URL.
+
+### 2. Install Dependencies
+
+Install dependencies separately for the frontend and backend, depending on your project structure.
+
+```bash
+# Backend
+cd backend
+npm install
+```
+
+```bash
+# Frontend
+cd ../frontend
+npm install
+```
+
+> Adjust the folder names if your repository uses a different structure.
+
+### 3. Configure Environment Variables
+
+Create a `.env` file in the appropriate application directory and configure the required environment variables.
+
+Example:
+
+```env
+DATABASE_URL="postgresql://USER:PASSWORD@localhost:5432/wanaagplus?schema=public"
+```
+
+Replace the placeholder credentials with your local PostgreSQL configuration. Add other variables required by your application.
+
+**Security:** Never commit real credentials, API keys, or secrets to GitHub.
+
+### 4. Set Up the Database
+
+Run the Prisma commands configured for your backend:
+
+```bash
+npx prisma generate
+npx prisma migrate dev
+```
+
+Ensure PostgreSQL is running and your database connection is configured correctly before running migrations.
+
+### 5. Run the Application
+
+Start the backend and frontend using the development scripts defined in their respective `package.json` files.
+
+For example:
+
+```bash
+# In the backend directory
+npm run start:dev
+```
+
+```bash
+# In the frontend directory
+npm run dev
+```
+
+Check your terminal output for the local URLs and any configuration errors.
+
+## 🗺️ Project Vision
+
+WanaagPlus aspires to become a platform where Muslims can encourage one another to build lasting habits of worship and good deeds.
+
+Through daily participation, meaningful progress tracking, and positive community engagement, the platform seeks to make doing good a consistent and rewarding part of everyday life.
+
+## 🤝 Contributing
+
+Contributions, ideas, and suggestions are welcome.
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Make your changes.
+4. Test your changes.
+5. Submit a pull request describing your contribution.
+
+Please keep contributions aligned with the project's mission of encouraging good deeds and positive community engagement.
+
+## 👨‍💻 Development
+
+WanaagPlus is developed with a focus on clean code, maintainable architecture, and a positive user experience.
+
+## 📜 Inspiration
+
+> **فَاسْتَبِقُوا الْخَيْرَاتِ**
+>
+> *Race toward all that is good.*
+
+**WanaagPlus — Inspiring good deeds, one day at a time.** 🌙
