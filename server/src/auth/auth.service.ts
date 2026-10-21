@@ -21,12 +21,11 @@ export class AuthService {
             const newUser = this.prisma.user.create({data:{
                 name:dto.name,
                 email:dto.email,
-                password:dto.password
+                password:hash
             },select:{
                 id:true,
                 name:true,
-                email:true,
-                createdAt:true
+                email:true
             }});
             return newUser;
 
