@@ -19,7 +19,7 @@ The purpose of WanaagPlus is to promote good deeds, encourage consistency in dhi
 Backend: NestJS
 Database: PostgreSQL
 ORM: Prisma
-Frontend: To be determined
+Frontend: NextJs With typeScript
 🚀 Vision
 
 WanaagPlus aims to make doing good deeds a daily habit through friendly competition, personal progress tracking, and a community centered on positive actions.
