@@ -16,7 +16,11 @@ export class AuthService {
             const isMatch = bcrypt.compareSync(dto.password,user.password)
             if(!isMatch) throw new UnauthorizedException("Invalid email or password")
 
-            return user;
+            return {
+                id: user.id,
+                name: user.name,
+                email: user.email,
+            };
 
         } catch (error) {
             throw  error
@@ -47,4 +51,3 @@ export class AuthService {
         }
     }
 }
-
